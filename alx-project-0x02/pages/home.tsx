@@ -1,4 +1,6 @@
 import Card from '@/components/common/Card';
+import PostModal from '@/components/common/PostModal';
+import { useState } from 'react';
 
 
 const Home: React.FC = () => {
@@ -9,6 +11,8 @@ const Home: React.FC = () => {
                 title="Card 1"
                 content="Hello world!"
             />
+
+            
         </div>
     )
 }
