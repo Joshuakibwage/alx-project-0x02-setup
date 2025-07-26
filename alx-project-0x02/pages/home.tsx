@@ -1,6 +1,7 @@
 import Card from '@/components/common/Card';
 import PostModal from '@/components/common/PostModal';
 import { useState } from 'react';
+import Header from '@/components/layout/Header';
 
 
 const Home: React.FC = () => {
@@ -14,8 +15,11 @@ const Home: React.FC = () => {
 
 
     return (
-        <div>
-            <h1>Home</h1>
+        <main>
+            <Header />
+            <div className="w-full h-screen grid place-content-center">
+            
+            <h1 className="text-4xl">Home</h1>
             <Card 
                 title="Card 1"
                 content="Hello world!"
@@ -47,6 +51,7 @@ const Home: React.FC = () => {
             </div>
 
         </div>
+        </main>
     )
 }
 
