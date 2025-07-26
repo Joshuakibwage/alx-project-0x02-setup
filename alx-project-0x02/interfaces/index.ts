@@ -1,0 +1,6 @@
+
+
+interface CardProps {
+    title: string,
+    
+}
