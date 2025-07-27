@@ -3,7 +3,7 @@ import { PostProps } from "@/interfaces";
 
 const PostCard: React.FC<PostProps> = ({ title, content, userId }) => {
   return (
-    <div className="border rounded-md shadow p-4 space-y-2 max-w-sm">
+    <div className="border border-neutral-700 rounded-md shadow p-4 space-y-2 max-w-sm">
         <h2 className="text-xl font-semibold">
             {title}
         </h2>
